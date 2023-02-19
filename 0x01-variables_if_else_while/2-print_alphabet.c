@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints alphabets
  * Return: Always 0 (success)
@@ -7,13 +6,13 @@
 int main(void)
 {
 	char c;
-	
+
 	c = 'a';
-	while(c <= 'z')
+	while (c <= 'z')
 	{
-		putchar(c);
+		putchar (c);
 		c++;
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
