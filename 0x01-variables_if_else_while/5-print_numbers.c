@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * prints number from 0 to 9
+ * main - prints number from 0 to 9
  * Return: Alwaya 0 (success)
  */
 int main(void)
