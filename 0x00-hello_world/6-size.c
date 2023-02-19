@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Allocating the size of data types
  * Return: 0 (success)
