@@ -1,16 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * create_array - Entry
- * @c: input
+ * create_array - Main Entry
  * @size: input
- * Return: Nothing.
+ * @c: input
+ * Return: 0
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *arr;
 	unsigned int i;
+
 	if (size == 0)
 	{
 		return (NULL);
@@ -20,7 +22,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < size; i ++)
+	for (i = 0; i < size; i++)
 	{
 		arr[i] = c;
 	}
